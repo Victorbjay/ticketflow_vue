@@ -1,4 +1,3 @@
 [build]
-    base = "vue"
     command = "npm run build"
     publish = "dist"
