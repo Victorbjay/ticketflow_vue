@@ -228,7 +228,7 @@ export default {
   left: -100px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(99, 102, 241, 0.15), transparent);
+  background: radial-gradient(circle, rgba(4, 120, 87, 0.15), transparent);
 }
 
 .circle-2 {
@@ -236,7 +236,7 @@ export default {
   right: -100px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(236, 72, 153, 0.15), transparent);
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.15), transparent);
 }
 
 .auth-container {
@@ -261,7 +261,7 @@ export default {
 }
 
 .btn-back:hover {
-  color: #6366f1;
+  color: #047857;
 }
 
 .auth-card {
@@ -269,7 +269,7 @@ export default {
   backdrop-filter: blur(20px);
   border-radius: 24px;
   padding: 3rem;
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(4, 120, 87, 0.2);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 }
 
@@ -282,7 +282,7 @@ export default {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #6366f1, #ec4899);
+  background: linear-gradient(135deg, #047857, #10b981);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -316,7 +316,7 @@ input {
   width: 100%;
   padding: 0.875rem 1rem;
   background: rgba(255, 255, 255, 0.05);
-  border: 2px solid rgba(99, 102, 241, 0.2);
+  border: 2px solid rgba(4, 120, 87, 0.2);
   border-radius: 10px;
   color: #f1f5f9;
   font-size: 1rem;
@@ -325,8 +325,8 @@ input {
 }
 
 input:focus {
-  border-color: #6366f1;
-  background: rgba(99, 102, 241, 0.05);
+  border-color: #047857;
+  background: rgba(4, 120, 87, 0.05);
 }
 
 input.error {
@@ -345,7 +345,7 @@ input.error {
 .btn-submit {
   width: 100%;
   padding: 1rem;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background: linear-gradient(135deg, #047857, #059669);
   color: white;
   border: none;
   border-radius: 12px;
@@ -353,20 +353,20 @@ input.error {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 4px 12px rgba(4, 120, 87, 0.4);
   margin-top: 0.5rem;
 }
 
 .btn-submit:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 6px 20px rgba(4, 120, 87, 0.5);
 }
 
 .auth-toggle {
   text-align: center;
   margin-top: 2rem;
   padding-top: 2rem;
-  border-top: 1px solid rgba(99, 102, 241, 0.1);
+  border-top: 1px solid rgba(4, 120, 87, 0.1);
 }
 
 .auth-toggle p {
@@ -377,7 +377,7 @@ input.error {
 .btn-toggle {
   background: none;
   border: none;
-  color: #6366f1;
+  color: #047857;
   font-weight: 600;
   cursor: pointer;
   font-size: 0.875rem;
@@ -388,9 +388,9 @@ input.error {
 .demo-box {
   margin-top: 1.5rem;
   padding: 1rem;
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(4, 120, 87, 0.1);
   border-radius: 10px;
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(4, 120, 87, 0.2);
 }
 
 .demo-title {
