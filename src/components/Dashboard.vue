@@ -3,7 +3,7 @@
     <!-- Navigation -->
     <nav class="nav">
       <div class="nav-container">
-        <div class="nav-brand">TicketFlow</div>
+        <div class="nav-brand">ResolveHub</div>
         <div class="nav-actions">
           <span class="user-email">{{ user?.email }}</span>
           <button class="btn-logout" @click="$emit('logout')">
@@ -49,7 +49,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>© 2025 TicketFlow • Built for Frontend Wizards Stage 2</p>
+        <p>© 2025 ResolveHub • Built for Frontend Wizards Stage 2</p>
       </div>
     </footer>
   </div>

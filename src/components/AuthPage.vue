@@ -18,7 +18,7 @@
       <div class="auth-card">
         <!-- Logo/Title -->
         <div class="auth-header">
-          <div class="auth-brand">TicketFlow</div>
+          <div class="auth-brand">ResolveHub</div>
           <h2>{{ isLogin ? 'Welcome Back' : 'Create Account' }}</h2>
           <p>{{ isLogin ? 'Sign in to manage your tickets' : 'Sign up to get started' }}</p>
         </div>
@@ -92,7 +92,7 @@
         <!-- Demo Credentials -->
         <div v-if="isLogin" class="demo-box">
           <p class="demo-title">Demo Credentials:</p>
-          <p>Email: demo@ticketflow.com</p>
+          <p>Email: demo@resolvehub.com</p>
           <p>Password: demo123</p>
         </div>
       </div>

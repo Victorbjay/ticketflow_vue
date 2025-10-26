@@ -7,7 +7,7 @@
     <nav class="nav">
       <div class="nav-container">
         <div class="nav-left">
-          <div class="nav-brand" @click="$emit('navigate', 'dashboard')">TicketFlow</div>
+          <div class="nav-brand" @click="$emit('navigate', 'dashboard')">ResolveHub</div>
           <button class="btn-back" @click="$emit('navigate', 'dashboard')">
             ← Dashboard
           </button>
@@ -187,7 +187,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>© 2025 TicketFlow • Built for Frontend Wizards Stage 2</p>
+        <p>© 2025 ResolveHub • Built for Frontend Wizards Stage 2</p>
       </div>
     </footer>
   </div>

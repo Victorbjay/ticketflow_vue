@@ -3,7 +3,7 @@
     <!-- Navigation -->
     <nav class="nav">
       <div class="nav-container">
-        <div class="nav-brand">TicketFlow</div>
+        <div class="nav-brand">ResolveHub</div>
         <button class="btn-login" @click="$emit('navigate', 'login')">
           Login
         </button>
@@ -72,10 +72,10 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-brand">TicketFlow</div>
+        <div class="footer-brand">ResolveHub</div>
         <p>Built with passion for Frontend Wizards Stage 2</p>
         <div class="footer-links">
-          <span>© 2025 TicketFlow</span>
+          <span>© 2025 ResolveHub</span>
           <span>•</span>
           <span>All Rights Reserved</span>
         </div>

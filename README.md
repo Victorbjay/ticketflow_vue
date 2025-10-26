@@ -1,4 +1,4 @@
-# TicketFlow - Vue.js Version
+# ResolveHub - Vue.js Version
 
 A modern, responsive ticket management system built with Vue.js 3.
 The app is live at [https://ticketflowvictor.netlify.app/](https://ticketflowvictor.netlify.app/)
@@ -57,7 +57,7 @@ The `dist` folder will contain the production-ready files.
 
 ## Demo Credentials
 
-- **Email:** demo@ticketflow.com
+- **Email:** demo@resolvehub.com
 - **Password:** demo123
 
 Or create a new account via the signup page.
