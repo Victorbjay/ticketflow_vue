@@ -1,7 +1,7 @@
 # TicketFlow - Vue.js Version
 
 A modern, responsive ticket management system built with Vue.js 3.
-
+The app is live at [https://ticketflowvictor.netlify.app/](https://ticketflowvictor.netlify.app/)
 ## Features
 
 ✅ Landing page with wavy SVG background and decorative circles

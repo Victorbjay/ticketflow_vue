@@ -126,7 +126,7 @@ export default {
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid rgba(99, 102, 241, 0.1);
+  border-bottom: 1px solid rgba(4, 120, 87, 0.1);
 }
 
 .nav-container {
@@ -141,7 +141,7 @@ export default {
 .nav-brand {
   font-size: 1.75rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #6366f1, #ec4899);
+  background: linear-gradient(135deg, #047857, #10b981);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -149,7 +149,7 @@ export default {
 
 .btn-login {
   padding: 0.75rem 2rem;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background: linear-gradient(135deg, #047857, #059669);
   color: white;
   border: none;
   border-radius: 12px;
@@ -157,12 +157,12 @@ export default {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 4px 12px rgba(4, 120, 87, 0.3);
 }
 
 .btn-login:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 6px 20px rgba(4, 120, 87, 0.4);
 }
 
 /* Hero Section */
@@ -184,7 +184,7 @@ export default {
   right: -100px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(99, 102, 241, 0.15), transparent);
+  background: radial-gradient(circle, rgba(4, 120, 87, 0.15), transparent);
 }
 
 .circle-2 {
@@ -192,7 +192,7 @@ export default {
   left: -50px;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(236, 72, 153, 0.15), transparent);
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.15), transparent);
 }
 
 .circle-3 {
@@ -201,7 +201,7 @@ export default {
   transform: translateY(-50%);
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(139, 92, 246, 0.2), transparent);
+  background: radial-gradient(circle, rgba(5, 150, 105, 0.2), transparent);
   filter: blur(60px);
 }
 
@@ -255,26 +255,26 @@ export default {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background: linear-gradient(135deg, #047857, #059669);
   color: white;
-  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 8px 24px rgba(4, 120, 87, 0.4);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 12px 32px rgba(4, 120, 87, 0.5);
 }
 
 .btn-secondary {
   background: rgba(255, 255, 255, 0.05);
   color: #f1f5f9;
-  border: 2px solid rgba(99, 102, 241, 0.3);
+  border: 2px solid rgba(4, 120, 87, 0.3);
   backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-  border-color: rgba(99, 102, 241, 0.6);
-  background: rgba(99, 102, 241, 0.1);
+  border-color: rgba(4, 120, 87, 0.6);
+  background: rgba(4, 120, 87, 0.1);
 }
 
 .wave {
@@ -315,7 +315,7 @@ export default {
 
 .feature-card {
   background: rgba(30, 41, 59, 0.5);
-  border: 1px solid rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(4, 120, 87, 0.1);
   border-radius: 20px;
   padding: 2.5rem;
   transition: all 0.3s ease;
@@ -325,8 +325,8 @@ export default {
 
 .feature-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(99, 102, 241, 0.3);
-  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.2);
+  border-color: rgba(4, 120, 87, 0.3);
+  box-shadow: 0 12px 32px rgba(4, 120, 87, 0.2);
 }
 
 .feature-icon {
@@ -377,7 +377,7 @@ export default {
 /* Footer */
 .footer {
   background: #0f172a;
-  border-top: 1px solid rgba(99, 102, 241, 0.1);
+  border-top: 1px solid rgba(4, 120, 87, 0.1);
   padding: 3rem 2rem;
   text-align: center;
 }
@@ -386,7 +386,7 @@ export default {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #6366f1, #ec4899);
+  background: linear-gradient(135deg, #047857, #10b981);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -45,7 +45,7 @@ export default {
 }
 
 .toast.success {
-  background: #10b981;
+  background: #047857;
   color: white;
 }
 

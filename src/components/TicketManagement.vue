@@ -337,7 +337,7 @@ export default {
         case 'closed':
           return { bg: 'rgba(148, 163, 184, 0.1)', border: '#94a3b8', text: '#94a3b8' }
         default:
-          return { bg: 'rgba(99, 102, 241, 0.1)', border: '#6366f1', text: '#6366f1' }
+          return { bg: 'rgba(4, 120, 87, 0.1)', border: '#047857', text: '#047857' }
       }
     },
     getStatusLabel(status) {
@@ -367,7 +367,7 @@ export default {
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid rgba(99, 102, 241, 0.1);
+  border-bottom: 1px solid rgba(4, 120, 87, 0.1);
 }
 
 .nav-container {
@@ -390,7 +390,7 @@ export default {
 .nav-brand {
   font-size: 1.75rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #6366f1, #ec4899);
+  background: linear-gradient(135deg, #047857, #10b981);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -407,7 +407,7 @@ export default {
 }
 
 .btn-back:hover {
-  color: #6366f1;
+  color: #047857;
 }
 
 .nav-actions {
@@ -460,7 +460,7 @@ export default {
 
 .btn-create {
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background: linear-gradient(135deg, #047857, #059669);
   color: white;
   border: none;
   border-radius: 12px;
@@ -468,7 +468,7 @@ export default {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 4px 12px rgba(4, 120, 87, 0.4);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -476,7 +476,7 @@ export default {
 
 .btn-create:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 6px 20px rgba(4, 120, 87, 0.5);
 }
 
 .plus-icon {
@@ -486,7 +486,7 @@ export default {
 /* Empty State */
 .empty-state {
   background: rgba(30, 41, 59, 0.6);
-  border: 2px dashed rgba(99, 102, 241, 0.3);
+  border: 2px dashed rgba(4, 120, 87, 0.3);
   border-radius: 20px;
   padding: 4rem 2rem;
   text-align: center;
@@ -516,7 +516,7 @@ export default {
 
 .ticket-card {
   background: rgba(30, 41, 59, 0.6);
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(4, 120, 87, 0.2);
   border-radius: 20px;
   padding: 1.5rem;
   transition: all 0.3s ease;
@@ -526,7 +526,7 @@ export default {
 
 .ticket-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.2);
+  box-shadow: 0 12px 32px rgba(4, 120, 87, 0.2);
 }
 
 .status-badge {
@@ -577,15 +577,15 @@ export default {
   gap: 0.75rem;
   margin-top: 1rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(99, 102, 241, 0.1);
+  border-top: 1px solid rgba(4, 120, 87, 0.1);
 }
 
 .btn-edit {
   flex: 1;
   padding: 0.625rem;
-  background: rgba(99, 102, 241, 0.1);
-  color: #6366f1;
-  border: 1px solid rgba(99, 102, 241, 0.3);
+  background: rgba(4, 120, 87, 0.1);
+  color: #047857;
+  border: 1px solid rgba(4, 120, 87, 0.3);
   border-radius: 8px;
   font-size: 0.875rem;
   font-weight: 600;
@@ -594,7 +594,7 @@ export default {
 }
 
 .btn-edit:hover {
-  background: rgba(99, 102, 241, 0.2);
+  background: rgba(4, 120, 87, 0.2);
 }
 
 .btn-delete {
@@ -642,7 +642,7 @@ select {
   width: 100%;
   padding: 0.75rem;
   background: rgba(255, 255, 255, 0.05);
-  border: 2px solid rgba(99, 102, 241, 0.2);
+  border: 2px solid rgba(4, 120, 87, 0.2);
   border-radius: 10px;
   color: #f1f5f9;
   font-size: 1rem;
@@ -654,8 +654,8 @@ select {
 input:focus,
 textarea:focus,
 select:focus {
-  border-color: #6366f1;
-  background: rgba(99, 102, 241, 0.05);
+  border-color: #047857;
+  background: rgba(4, 120, 87, 0.05);
 }
 
 input.error,
@@ -693,7 +693,7 @@ select {
   padding: 0.875rem;
   background: rgba(255, 255, 255, 0.05);
   color: #cbd5e1;
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(4, 120, 87, 0.2);
   border-radius: 10px;
   font-size: 1rem;
   font-weight: 600;
@@ -708,7 +708,7 @@ select {
 .btn-submit {
   flex: 1;
   padding: 0.875rem;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background: linear-gradient(135deg, #047857, #059669);
   color: white;
   border: none;
   border-radius: 10px;
@@ -716,12 +716,12 @@ select {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 4px 12px rgba(4, 120, 87, 0.4);
 }
 
 .btn-submit:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 6px 20px rgba(4, 120, 87, 0.5);
 }
 
 /* Delete Modal */
@@ -765,7 +765,7 @@ select {
 /* Footer */
 .footer {
   background: rgba(15, 23, 42, 0.8);
-  border-top: 1px solid rgba(99, 102, 241, 0.1);
+  border-top: 1px solid rgba(4, 120, 87, 0.1);
   padding: 2rem;
   margin-top: 4rem;
   text-align: center;

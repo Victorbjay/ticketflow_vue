@@ -72,7 +72,7 @@ export default {
       const resolvedTickets = this.tickets.filter(t => t.status === 'closed').length
 
       return [
-        { icon: '📊', value: totalTickets, label: 'Total Tickets', color: '#6366f1' },
+        { icon: '📊', value: totalTickets, label: 'Total Tickets', color: '#047857' },
         { icon: '🟢', value: openTickets, label: 'Open Tickets', color: '#10b981' },
         { icon: '🟡', value: inProgressTickets, label: 'In Progress', color: '#f59e0b' },
         { icon: '✓', value: resolvedTickets, label: 'Resolved', color: '#94a3b8' }
@@ -111,7 +111,7 @@ export default {
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid rgba(99, 102, 241, 0.1);
+  border-bottom: 1px solid rgba(4, 120, 87, 0.1);
 }
 
 .nav-container {
@@ -128,7 +128,7 @@ export default {
 .nav-brand {
   font-size: 1.75rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #6366f1, #ec4899);
+  background: linear-gradient(135deg, #047857, #10b981);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -181,7 +181,7 @@ export default {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(99, 102, 241, 0.15), transparent);
+  background: radial-gradient(circle, rgba(4, 120, 87, 0.15), transparent);
   filter: blur(40px);
   z-index: 0;
 }
@@ -220,7 +220,7 @@ export default {
 
 .stat-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(99, 102, 241, 0.2);
+  box-shadow: 0 12px 32px rgba(4, 120, 87, 0.2);
 }
 
 .stat-circle {
@@ -251,7 +251,7 @@ export default {
 
 .quick-actions {
   background: rgba(30, 41, 59, 0.6);
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(4, 120, 87, 0.2);
   border-radius: 20px;
   padding: 2.5rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
@@ -265,7 +265,7 @@ export default {
 
 .btn-action {
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background: linear-gradient(135deg, #047857, #059669);
   color: white;
   border: none;
   border-radius: 12px;
@@ -273,7 +273,7 @@ export default {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 4px 12px rgba(4, 120, 87, 0.4);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -281,13 +281,13 @@ export default {
 
 .btn-action:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 6px 20px rgba(4, 120, 87, 0.5);
 }
 
 /* Footer */
 .footer {
   background: rgba(15, 23, 42, 0.8);
-  border-top: 1px solid rgba(99, 102, 241, 0.1);
+  border-top: 1px solid rgba(4, 120, 87, 0.1);
   padding: 2rem;
   margin-top: 4rem;
   text-align: center;
