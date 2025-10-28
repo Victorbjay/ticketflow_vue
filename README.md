@@ -1,66 +1,51 @@
-# ResolveHub - Vue.js Version
+# ResolveHub — Ticket resolution that actually moves work forward
 
-A modern, responsive ticket management system built with Vue.js 3.
-The app is live at [https://ticketflowvictor.netlify.app/](https://ticketflowvictor.netlify.app/)
-## Features
+ResolveHub is a focused ticket management app built with Vue 3 and Vite. It helps teams capture issues, assign owners, prioritize work, and close tickets quickly — without unnecessary process overhead. The UI and features are designed for day-to-day ticket operations: triage, assignment, progress tracking, and resolution.
 
-✅ Landing page with wavy SVG background and decorative circles
-✅ Authentication (Login/Signup) with validation
-✅ Protected dashboard with ticket statistics
-✅ Full CRUD ticket management
-✅ Toast notifications
-✅ Modal dialogs
-✅ Form validation
-✅ LocalStorage persistence
-✅ Responsive design (max-width: 1440px)
-✅ Status colors: Green (open), Amber (in progress), Gray (closed)
+Core features
+
+- Fast ticket creation and editing (full CRUD)
+- Simple status workflow: Open → In Progress → Closed
+- Priority and tagging to drive work focus
+- Compact dashboard with actionable stats
+- Lightweight modals and toast notifications for fast feedback
+- Client-side persistence (LocalStorage) for quick demos and trials
+- Responsive design for desktop and tablet use
 
 ## Prerequisites
 
 - Node.js (v14 or higher)
 - npm or yarn
 
-## Installation
+## Installation & local run
 
-1. Clone/download this folder
-2. Navigate to the project directory:
-```bash
-   cd ticketflow-vue
-```
-3. Install dependencies:
-```bash
-   npm install
-```
+Clone the repo, install deps and run the dev server:
 
-## Running the App
-
-Start the development server:
 ```bash
+cd ticketflow-vue
+npm install
 npm run dev
 ```
 
-The app will open at [http://localhost:3000](http://localhost:3000)
+Vite will print the local URL (for example http://localhost:5175). Open that URL in your browser to view ResolveHub.
 
-## Building for Production
+## Build & preview
 
-Create an optimized production build:
+Create an optimized build and preview it locally:
+
 ```bash
 npm run build
-```
-
-Preview the production build:
-```bash
 npm run preview
 ```
 
-The `dist` folder will contain the production-ready files.
+The `dist` folder contains the production build.
 
-## Demo Credentials
+## Demo credentials
 
-- **Email:** demo@resolvehub.com
-- **Password:** demo123
+- Email: demo@resolvehub.com
+- Password: demo123
 
-Or create a new account via the signup page.
+(Or create a new account from the signup form.)
 
 ## Project Structure
 ```
@@ -78,34 +63,23 @@ src/
 
 ## Features Breakdown
 
-### Landing Page
-- Hero section with wavy SVG
-- Decorative circles
-- Feature cards
-- CTA sections
-- Footer
 
-### Authentication
-- Login/Signup forms
-- Email and password validation
-- Toast notifications
-- Session management via localStorage
+## App areas — what matters for users
 
-### Dashboard
-- Total tickets stat
-- Open tickets stat
-- In Progress stat
-- Resolved tickets stat
-- Quick action button
+Landing page — direct summary of capability and CTA to sign up or sign in.
 
-### Ticket Management (CRUD)
-- Create new tickets
-- View all tickets in card layout
-- Edit existing tickets
-- Delete with confirmation
-- Real-time validation
-- Status: open, in_progress, closed
-- Priority: low, medium, high
+Authentication — simple local demo accounts with validation and session persistence for quick trials.
+
+Dashboard — at-a-glance ticket metrics and quick access to the ticket board so teams can see where to focus.
+
+Ticket board — create tickets, set priority and status, assign ownership (via notes), edit details, and delete when work is complete. Designed to minimize clicks and keep the team focused on resolution.
+
+## Technologies
+
+- Vue 3
+- Vite
+- Scoped CSS
+- LocalStorage (demo persistence)
 
 ## Technologies Used
 
@@ -152,8 +126,8 @@ npm run deploy
 
 ## License
 
-MIT License - Built for Frontend Wizards Stage 2
+MIT License
 
 ## Author
 
-Victor O. - Frontend Wizards Cohort
+Victor O. — Frontend Wizards Cohort

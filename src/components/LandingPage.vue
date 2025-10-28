@@ -18,10 +18,10 @@
 
       <div class="hero-content">
         <div class="hero-text">
-          <h1>Manage Tickets Like a Pro</h1>
+          <h1>Resolve tickets faster. Stay in control.</h1>
           <p>
-            Streamline your workflow with our powerful ticket management system.
-            Track, organize, and resolve issues faster than ever before.
+            ResolveHub puts ticket work where teams actually get things done — create, prioritize,
+            assign, and close issues with clear workflows and minimal overhead.
           </p>
           <div class="hero-buttons">
             <button class="btn btn-primary" @click="$emit('navigate', 'signup')">
@@ -46,7 +46,7 @@
     <!-- Features Section -->
     <section class="features">
       <div class="container">
-        <h2>Everything You Need</h2>
+  <h2>Focused ticket management tools</h2>
         <div class="features-grid">
           <div v-for="feature in features" :key="feature.title" class="feature-card">
             <div class="feature-icon">{{ feature.icon }}</div>
@@ -61,8 +61,8 @@
     <section class="cta">
       <div class="circle circle-3"></div>
       <div class="container">
-        <h2>Ready to Transform Your Workflow?</h2>
-        <p>Join thousands of teams already managing their tickets efficiently</p>
+        <h2>Start solving tickets, not managing them</h2>
+        <p>Get your team aligned — reduce resolution time, remove handoffs, and restore focus.</p>
         <button class="btn btn-primary" @click="$emit('navigate', 'signup')">
           Start Free Today
         </button>
@@ -92,18 +92,18 @@ export default {
       features: [
         {
           icon: '🎯',
-          title: 'Smart Organization',
-          description: 'Organize tickets by status, priority, and category with intelligent tagging'
+          title: 'Organize & Prioritize',
+          description: 'Structure work by status, priority and category so teams focus on what matters.'
         },
         {
           icon: '⚡',
-          title: 'Lightning Fast',
-          description: 'Built for speed. Create, update, and manage tickets in milliseconds'
+          title: 'Fast, lightweight workflow',
+          description: 'Create, assign and update tickets quickly — minimal clicks, maximum clarity.'
         },
         {
           icon: '🔒',
-          title: 'Secure & Private',
-          description: 'Your data is protected with enterprise-grade security standards'
+          title: 'Safe & auditable',
+          description: 'Role-aware access and clear activity history keep work accountable.'
         }
       ]
     }

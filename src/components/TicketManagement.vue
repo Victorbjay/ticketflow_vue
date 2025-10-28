@@ -25,20 +25,20 @@
     <div class="container">
       <!-- Header -->
       <div class="header">
-        <h1>Ticket Management</h1>
+        <h1>Tickets</h1>
         <button class="btn-create" @click="handleCreate">
           <span class="plus-icon">+</span>
-          Create Ticket
+          New Ticket
         </button>
       </div>
 
       <!-- Empty State -->
       <div v-if="tickets.length === 0" class="empty-state">
         <div class="empty-icon">🎫</div>
-        <h3>No tickets yet</h3>
-        <p>Create your first ticket to get started</p>
+        <h3>No active tickets</h3>
+        <p>There are no open items. Create a ticket to assign work and track progress.</p>
         <button class="btn-create" @click="handleCreate">
-          Create First Ticket
+          Create Ticket
         </button>
       </div>
 
@@ -89,9 +89,9 @@
     </div>
 
     <!-- Create/Edit Modal -->
-    <Modal :isOpen="isModalOpen" @close="isModalOpen = false">
+      <Modal :isOpen="isModalOpen" @close="isModalOpen = false">
       <div class="modal-content">
-        <h2>{{ editingTicket ? 'Edit Ticket' : 'Create New Ticket' }}</h2>
+        <h2>{{ editingTicket ? 'Edit ticket' : 'Create ticket' }}</h2>
 
         <form @submit.prevent="handleSubmit">
           <!-- Title -->
@@ -171,8 +171,8 @@
     <Modal :isOpen="deleteConfirm !== null" @close="deleteConfirm = null">
       <div class="modal-content delete-modal">
         <div class="delete-icon">⚠️</div>
-        <h2>Delete Ticket?</h2>
-        <p>Are you sure you want to delete "{{ deleteConfirm?.title }}"? This action cannot be undone.</p>
+        <h2>Delete ticket</h2>
+        <p>Delete "{{ deleteConfirm?.title }}"? This permanently removes the record and cannot be recovered.</p>
         <div class="modal-actions">
           <button class="btn-cancel" @click="deleteConfirm = null">
             Cancel

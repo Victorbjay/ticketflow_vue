@@ -18,8 +18,8 @@
       <!-- Welcome Section -->
       <div class="welcome">
         <div class="circle"></div>
-        <h1>Welcome back! 👋</h1>
-        <p>Here's what's happening with your tickets today</p>
+  <h1>Your ticket overview</h1>
+  <p>At-a-glance status for tickets that need attention, and quick access to the ticket board.</p>
       </div>
 
       <!-- Stats Grid -->
@@ -39,9 +39,9 @@
 
       <!-- Quick Actions -->
       <div class="quick-actions">
-        <h2>Quick Actions</h2>
+        <h2>Fast actions</h2>
         <button class="btn-action" @click="$emit('navigate', 'tickets')">
-          <span>🎫</span> Manage Tickets
+          <span>🎫</span> Open Ticket Board
         </button>
       </div>
     </div>
@@ -49,7 +49,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>© 2025 ResolveHub • Built for Frontend Wizards Stage 2</p>
+        <p>© 2025 ResolveHub • Simple, reliable ticket resolution</p>
       </div>
     </footer>
   </div>
